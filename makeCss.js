@@ -4,7 +4,7 @@ var createCss = function(number, increment){
      
         for(var i = 0; i < number; i++){
             x+= increment;
-            var cool = "@media (max-width:" + x + "px) {.h1 {font-size: " + 0.06*x + "px; }}";
+            var cool = "@media(max-width: " + x + "px) { .h1{ font-size: " + 0.06*x + "px; }}";
             console.log(cool);
             cssArray.push(cool);
         };
