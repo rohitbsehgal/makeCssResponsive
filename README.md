@@ -1,2 +1,4 @@
 # makeCssResponsive
-make any css responsive by using variables #NOT DONE YET--
+make any css responsive by using variables
+
+
