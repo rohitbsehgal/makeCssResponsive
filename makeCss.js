@@ -54,5 +54,5 @@ var createCss = function(number, increment, numberToFind){
         }
         console.log(allArray)
     };
-  var css = createCss(60, 10);
+  var css = createCss(60, 10, 60);
   var newCssString = allArray.join("");
