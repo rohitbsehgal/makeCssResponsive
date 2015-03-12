@@ -1,6 +1,6 @@
 var cssArray = [];
 var allArray = [];
-var createCss = function(number, increment, numberToFind){
+var createCss = function(number, increment, numberToReplace){
     var x = 0;
     var x1 = 0;
      var n = 0;
