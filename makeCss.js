@@ -1,6 +1,6 @@
 var cssArray = [];
 var allArray = [];
-var createCss = function(number, increment){
+var createCss = function(number, increment, numberToFind){
     var x = 0;
     var x1 = 0;
      var n = 0;
@@ -25,7 +25,7 @@ var createCss = function(number, increment){
      for(var k = 0; k < number; k++){
        x1 += increment;
      }
-     var cool = "{ .h1{ font-size: 60px; }; } "
+     var cool = "{ .h1{ font-size: 60px; } } "
      for(var j = 0; j < cool.length; j++){
        n = cool.indexOf("px");
      }
@@ -34,9 +34,9 @@ var createCss = function(number, increment){
            console.log(l.toString())
            stringToReplaceNumber = number - l;
            console.log(stringToReplaceNumber)
-           stringToReplace = number.toString() + "px";
+           stringToReplace = numberToReplace.toString() + "px";
            var re = new RegExp(stringToReplace, 'g');
-           var replacedString = cool.replace(re, l.toString() + "px");
+           var replacedString = cool.replace(re, (l/15).toString() + "em");
            console.log(replacedString);
            maxIntArray.push(replacedString)
          }
