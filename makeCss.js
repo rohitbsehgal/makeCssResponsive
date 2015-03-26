@@ -80,5 +80,5 @@ var doItAll = function(number, increment, percentOfScreen, lineOfCss){
 //increment = number of pixels you want the media queries to go up by
 //percentOfScreen = percent of the screen you want the element to cover
 //lineOfCss = a single line of css with a single "px" value inside it for example: .h1{ font-size: 60px; }
-  var doFunctions = doItAll(60, 25, 5,".h1{ font-size: 60px; }");
+  var doFunctions = doItAll(documnet.getElementById("number").value, 25, 5,".h1{ font-size: 60px; }");
   console.log(doFunctions);
