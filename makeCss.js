@@ -1,3 +1,4 @@
+window.addEventListener('DOMContentLoaded', doFunctions, false);
 var cssArray = [];
 var allArray = [];
 var numToReplace = 0;
